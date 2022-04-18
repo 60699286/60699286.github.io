@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios en HTML</title>
+</head>
+<body>
+    <h1> COMPLETA TU INFORMACION </h1>
+    <form>
+        <p> Nombre: <input type="text" name="nombre" required size="20" placeholder="Escribe tu nombre"></p>
+        <p> Apellidos: <input type="text" name="apellidos" required size="20" placeholder="Escbribe tu apellido"></p>
+        <p> Nacinalidad <Input type="text" name="Nacionalidad" value= "Peru" size="10"></p>
+
+        <h3> Escribe tu nuevo usuario y contraseña </h3>
+        <p> Usuario: <input type="text" name="Usuario" size="15" maxlength="10" required></p>
+        <P> contraseña: <input type="password" Name="Password" size="15" minlength="8" max="12" placeholder="Entre 8 a 12 caracteres" required></P>
+        <!--opcion 01-->
+        <input type="button" value="Enviar">
+        <!--opcion 02-->
+        <p><button type="button" style="background-color:blue; width: 30px; height: 30px; color: azure;"> ok</button></p>
+        <!--Enviar informacion-->
+        <input type="submit" value="Enviar">
+
+        <p> Sexo: <input type="radio" value="H" > Hombre
+                    <input type="radio" value="M" > Mujer
+        </p>
+    </form>
+</body>
+</html>
